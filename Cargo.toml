@@ -1,0 +1,8 @@
+[package]
+name = "filter-parsed-json"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+serde = { version = "1.0.219", features = ["std", "alloc", "derive", "serde_derive"] }
+serde_json = { version = "1.0.140", features = ["std", "alloc"] }
